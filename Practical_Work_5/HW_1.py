@@ -1,11 +1,11 @@
 def odd_num(to):
-    """ task 1 """
+
     for i in range(1, to + 1, 2):
         yield i
 
 
 def odd_num_no_yield(to):
-    """ task 2 """
+
     return (x for x in range(1, to + 1, 2))
 
 
